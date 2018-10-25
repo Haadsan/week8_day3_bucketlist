@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bucket List</title>
+    <script src="/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>Bucket List</h1>
+    <div class="wrapper">
+      <div>
+        <h2>Add a Bucket List</h2>
+        <form id="bucketlist-form">
+          <div>
+            <label for="activities">Activities:</label>
+            <input type="text" id="activities"/>
+          </div>
+          <div>
+            <label for="country">Country:</label>
+            <input type="text" id="country"/>
+          </div>
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location"/>
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date"/>
+          </div>
+
+          <input type="submit" value="Save" id="save"/>
+        </form>
+      </div>
+      <div>
+        <h2>Bucket List</h2>
+        <div id="bucketlist"></div>
+      </div>
+    </div>
+  </body>
+</html>
